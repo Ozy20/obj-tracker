@@ -30,7 +30,7 @@ class EuclideanDistTracker:
 
 tracker = EuclideanDistTracker()
 
-cap = cv2.VideoCapture("C:\\Users\\HADITH\\Desktop\\timeDoor\\comp vision\\meeting6\\highway.mp4")
+cap = cv2.VideoCapture("highway.mp4")
 object_detector = cv2.createBackgroundSubtractorMOG2(history=100, varThreshold=40)
 
 while True:
